@@ -1,0 +1,26 @@
+<root>
+	<thread name="Main" totalTimeMS="146.280762" startTime="1614192452259" stopTime="1614192939388" totalBlocks="26"> 
+		<block name="CEditorMainFrame::BeforeClose" totalTimeMS="146.237823" startTime="1614192452372" stopTime="1614192939358" args=""> 
+			<block name="CEditorMainFrame::SaveConfig" totalTimeMS="8.786834" startTime="1614192452375" stopTime="1614192481636" args=""> 
+			</block>
+			<block name="CTabPaneManager::CloseAllPanes" totalTimeMS="109.449394" startTime="1614192482619" stopTime="1614192847096" args=""> 
+				<block name="CSystem::Update" totalTimeMS="0.224918" startTime="1614192772959" stopTime="1614192773708" args=""> 
+				</block>
+			</block>
+			<block name="CEditorImpl::CloseDocument" totalTimeMS="27.702805" startTime="1614192847103" stopTime="1614192939356" args=""> 
+				<block name="CCryEditDoc::DeleteContents" totalTimeMS="27.576082" startTime="1614192847324" stopTime="1614192939155" args=""> 
+					<block name="Notify Clear Level Contents" totalTimeMS="0.164560" startTime="1614192847324" stopTime="1614192847872" args=""> 
+					</block>
+					<block name="CGameEngine::ResetResources" totalTimeMS="27.274590" startTime="1614192848054" stopTime="1614192938881" args=""> 
+						<block name="CEntitySystem::Reset" totalTimeMS="0.423411" startTime="1614192848058" stopTime="1614192849468" args=""> 
+						</block>
+						<block name="C3DEngine::UnloadLevel" totalTimeMS="19.733965" startTime="1614192849486" stopTime="1614192915202" args=""> 
+						</block>
+						<block name="CCryAction::EndGameContext" totalTimeMS="7.051448" startTime="1614192915398" stopTime="1614192938880" args=""> 
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+	</thread>
+</root>
